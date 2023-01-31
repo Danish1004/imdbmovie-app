@@ -9,7 +9,7 @@ const Movie = () => {
   useEffect(() => {
     getData();
     window.scrollTo(0, 0);
-  }, []);
+  });
 
   const getData = () => {
     fetch(
